@@ -20,3 +20,4 @@
 
 # Make sure we keep annotations for CoordinatorLayout's DefaultBehavior
 -keepattributes *Annotation*
+-keep class android.support.v7.widget.SearchView { *; }
